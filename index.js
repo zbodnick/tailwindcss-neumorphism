@@ -33,8 +33,8 @@ const generateShades = (color) => {
     return {
       baseColor: Color(color).hex(),
       shadowColor: Color(color).isDark()
-        ? Color(color).darken(0.3).hex()
-        : Color(color).darken(0.25).hex(),
+        ? Color(color).darken(0.6).hex()
+        : Color(color).darken(0.3).hex(),
       highlightColor: Color(color).isLight()
         ? Color(color).lighten(0.2).hex()
         : Color(color).lighten(0.25).hex(),
